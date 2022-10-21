@@ -1,0 +1,95 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+   background-color: #e5ebeb;
+   font-size: 1.5em;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+
+/*CSS FOR NAVIGATION 
+--------------------
+*/
+nav{
+  background-color: #141414;
+  height: 64px;
+  text-align: center;
+  font-size: 36px;  
+  border-bottom: 1px solid black;
+}
+
+/*CSS FOR CONTAINER */
+
+.main{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ margin-top: 40px;
+}
+
+h1{
+ color: white;
+}
+
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.main input{
+        padding: 0.5rem;
+        font-size: 1rem;
+        border: 2px solid transparent;
+}
+
+.add{
+    width: 70px;
+    background-color: #1c87c9;
+    color: #ffffff;
+    padding: 0.5em;
+}
+
+
+/* CSS FOR DISPLAY */
+
+.display{
+ background-color: rgba(255, 255, 255, 0.3);
+ display: none;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 60px;
+ width: 400px;
+ box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+ border-radius: 2em;
+ height: 300px;
+}
+
+.display-wrapper{
+ text-align: center;
+ margin-top: 40px;
+}
+
+h2{
+margin-top: 20px;
+}
+
+p{
+margin-top: 20px;
+}
+
+
+.back{
+
+}
+
+
+
+
+
+
